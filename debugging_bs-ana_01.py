@@ -132,9 +132,7 @@ hemi = 'L'
 file = op.join(bids_folder_grad, 'derivatives', 'gradients', f'sub-{sub}', f'ses-{ses_grad}',
     f'sub-{sub}_ses-{ses_grad}_task-rest_space-fsaverage_hemi-{hemi}_grad{grad_n}_noParcel{removedLabels}.surf.gii')
 im1L = nib.load(file)
-
-
-hemi = 'L'
+hemi = 'R'
 file = op.join(bids_folder_grad, 'derivatives', 'gradients', f'sub-{sub}', f'ses-{ses_grad}',
     f'sub-{sub}_ses-{ses_grad}_task-rest_space-fsaverage_hemi-{hemi}_grad{grad_n}_noParcel{removedLabels}.surf.gii')
 im1R = nib.load(file)
@@ -145,9 +143,7 @@ hemi = 'L'
 file = op.join(bids_folder_grad, 'derivatives', 'gradients', f'sub-{sub}', f'ses-{ses_grad}',
     f'sub-{sub}_ses-{ses_grad}_task-rest_space-fsaverage_hemi-{hemi}_grad{grad_n}_noParcel{removedLabels}.surf.gii')
 im2L = nib.load(file)
-
-
-hemi = 'L'
+hemi = 'R'
 file = op.join(bids_folder_grad, 'derivatives', 'gradients', f'sub-{sub}', f'ses-{ses_grad}',
     f'sub-{sub}_ses-{ses_grad}_task-rest_space-fsaverage_hemi-{hemi}_grad{grad_n}_noParcel{removedLabels}.surf.gii')
 im2R = nib.load(file)

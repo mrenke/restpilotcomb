@@ -42,6 +42,9 @@ ds2 = cortex.Dataset(grad2=grad2)
 cortex.webshow(ds1) 
 cortex.webshow(ds2) 
 
+ds = cortex.Dataset(grad1=grad1, grad2=grad2)
+cortex.webshow(ds)
+
 # %%
 
 #%% r2 data
